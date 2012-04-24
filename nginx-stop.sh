@@ -1,1 +1,1 @@
-cat nginx.pid | xargs -r kill
+cat var/nginx.pid | xargs -r kill
