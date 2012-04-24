@@ -1,0 +1,6 @@
+#!/bin/bash
+TOP=$(readlink -f "$0")
+TOP=$(dirname "$TOP")
+TOP=$(dirname "$TOP")
+
+cat "$TOP"/var/nginx.pid | xargs -r kill

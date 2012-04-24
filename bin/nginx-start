@@ -1,0 +1,7 @@
+#!/bin/bash
+TOP=$(readlink -f "$0")
+TOP=$(dirname "$TOP")
+TOP=$(dirname "$TOP")
+
+mkdir -p "$TOP"/var
+nginx -p "$TOP"/ -c etc/nginx.conf &

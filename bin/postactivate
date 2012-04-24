@@ -1,0 +1,7 @@
+#!/not/executable/bash
+# See: 
+# http://www.doughellmann.com/docs/virtualenvwrapper/scripts.html#postactivate
+
+HERE=$(readlink -f "$BASH_SOURCE")
+HERE=$(dirname "$HERE")
+PATH="$HERE:$PATH"

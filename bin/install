@@ -1,0 +1,6 @@
+#!/bin/bash
+# Install my virtualenv hooks.
+HERE=$(readlink -f "$0")
+HERE=$(dirname "$HERE")
+
+ln -sf "$HERE"/postactivate "$VIRTUAL_ENV"/bin/postactivate 
