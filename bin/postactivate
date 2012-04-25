@@ -2,6 +2,11 @@
 # See: 
 # http://www.doughellmann.com/docs/virtualenvwrapper/scripts.html#postactivate
 
+# http://honza.ca/2011/06/install-ruby-gems-into-virtualenv
+export GEM_HOME="$VIRTUAL_ENV/gems"
+export GEM_PATH=""
+export PATH=$PATH:"$GEM_HOME/bin"
+
 HERE=$(readlink -f "$BASH_SOURCE")
 HERE=$(dirname "$HERE")
-PATH="$HERE:$PATH"
+export PATH="$HERE:$PATH"
