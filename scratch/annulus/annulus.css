@@ -1,0 +1,9 @@
+body {
+    background: black;
+}
+svg {
+    background: white;
+}
+path {
+    fill: blue;
+}

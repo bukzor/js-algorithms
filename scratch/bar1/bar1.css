@@ -1,0 +1,41 @@
+body {
+    background: black;
+}
+div, table {
+    background: white;
+}
+tr {
+    padding: 100px;
+    margin: 100px;
+    background: green;
+}
+td {
+    padding: 100px;
+    margin: 100px;
+    background: red;
+}
+
+.chart {
+    background: yellow;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.chart rect {
+   stroke: white;
+   fill: steelblue;
+}
+.chart .rule {
+    fill: black;
+}
+.chart text {
+  font-family: sans-serif;
+  fill: white;
+}

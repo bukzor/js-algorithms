@@ -1,0 +1,17 @@
+body {
+    background: black;
+}
+table {
+    background: white;
+}
+tr {
+    padding: 100px;
+    margin: 100px;
+    background: green;
+}
+td {
+    padding: 100px;
+    margin: 100px;
+    background: red;
+}
+
